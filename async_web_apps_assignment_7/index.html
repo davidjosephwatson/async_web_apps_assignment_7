@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Async Web App Assignment Number 6</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>National Parks Search by State Code</h1>
+    <form>
+      <h2>State Search:</h2>
+      <input type="text" id="search-term" placeholder="State Code(s)">
+      <h2>Max Results:</h2>
+      <input type="text" id="max-results" value="10">
+      <input type="submit">
+    </form>
+    <section class="results hidden">
+        <h2>Below are the national parks in this area:</h2>
+        <div class="results-list"></div>
+        <div class="feedback"></div>
+      </section>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
